@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "nakafa-documentation",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "Nakafa Documentation",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/nabilfatih/nakafa-docs.git"
   },
   "author": "Shu Ding <g@shud.in>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/nabilfatih/nakafa-docs/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/nabilfatih/nakafa-docs#readme",
   "dependencies": {
     "next": "^13.1.1",
     "nextra": "2.2.0",

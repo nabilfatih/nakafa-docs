@@ -12,7 +12,8 @@ const config: DocsThemeConfig = {
     return (
       <>
         <meta name="robots" content="follow, index" />
-        <link href="public/favicon.ico" rel="shortcut icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="public/favicon.ico" />
         <meta property="og:url" content={`https://docs.nakafa.com${asPath}`} />
         <meta property="og:title" content={frontMatter.title || "Nakafa"} />
         <meta

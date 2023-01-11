@@ -5,12 +5,7 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 import Logo from "./components/Logo";
 
 const config: DocsThemeConfig = {
-  logo: (
-    <>
-      <Logo />
-      <strong>Nakafa</strong>
-    </>
-  ),
+  logo: <Logo />,
   head: () => {
     const { asPath } = useRouter();
     const { frontMatter } = useConfig();
@@ -20,7 +15,7 @@ const config: DocsThemeConfig = {
         <meta property="og:title" content={frontMatter.title || "Nakafa"} />
         <meta
           property="og:description"
-          content={frontMatter.description || "Nkafa Documentation"}
+          content={frontMatter.description || "Nakafa Documentation"}
         />
       </>
     );

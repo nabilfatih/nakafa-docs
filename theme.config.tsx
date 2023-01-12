@@ -6,6 +6,14 @@ import Logo from "./components/Logo";
 
 const config: DocsThemeConfig = {
   logo: <Logo />,
+  useNextSeoProps() {
+    const { route } = useRouter();
+    if (route !== "/") {
+      return {
+        titleTemplate: "%s – Nakafa Documentation",
+      };
+    }
+  },
   head: () => {
     const { asPath } = useRouter();
     const { frontMatter } = useConfig();
@@ -15,7 +23,10 @@ const config: DocsThemeConfig = {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/x-icon" href="public/favicon.ico" />
         <meta property="og:url" content={`https://docs.nakafa.com${asPath}`} />
-        <meta property="og:title" content={frontMatter.title || "Nakafa"} />
+        <meta
+          property="og:title"
+          content={frontMatter.title || "Nakafa Documentation"}
+        />
         <meta
           property="og:description"
           content={frontMatter.description || "Nakafa Documentation"}
@@ -27,7 +38,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/nabilfatih/nakafa-docs",
   },
   chat: {
-    link: "https://discord.com",
+    link: "https://discord.gg/gE983WmM",
   },
   docsRepositoryBase: "https://github.com/nabilfatih/nakafa-docs",
   footer: {

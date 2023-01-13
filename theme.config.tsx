@@ -20,8 +20,27 @@ const config: DocsThemeConfig = {
     return (
       <>
         <meta name="robots" content="follow, index" />
+        <link href="/favicon.ico" rel="shortcut icon" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="public/favicon.ico" />
         <meta property="og:url" content={`https://docs.nakafa.com${asPath}`} />
         <meta
           property="og:title"

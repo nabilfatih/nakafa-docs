@@ -5,6 +5,8 @@
   "developer": "Developer",
   "limitation": "Limitation",
   "api-endpoint": "API Endpoint",
+  "privacy-policy": "Privacy Policy",
+  "terms-of-service": "Terms of Service",
   "nakafa": {
     "title": "Nakafa",
     "type": "page",

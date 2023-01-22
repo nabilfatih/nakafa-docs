@@ -1,8 +1,6 @@
 {
-  "overview": "Overview",
-  "quickstart": "Quickstart",
-  "code": "Code API Endpoint",
-  "image": "Image API Endpoint",
-  "language": "Language API Endpoint",
-  "text": "Text API Endpoint"
+  "code": "Code",
+  "image": "Image",
+  "language": "Language",
+  "text": "Text"
 }
